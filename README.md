@@ -94,13 +94,6 @@ Brief introduction about the project.
    - Maintain historical data in dimension tables.
    - Ensure data consistency and accuracy.
 
-## Estimates for Implementation
-| Task                                  | Estimated Effort |
-|--------------------------------------|-----------------|
-| Data Analysis                         | X hours        |
-| ETL Design for STG-to-DWH             | X hours        |
-| Implementation of Source-to-STG       | X hours        |
-| Implementation of STG-to-DWH          | X hours        |
 
 ## Technology Stack
 - **Database:** Oracle / SQL Server 
