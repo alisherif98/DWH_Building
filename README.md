@@ -1,7 +1,11 @@
 # ETL Pipeline for Data Warehouse (DWH) with Slowly Changing Dimensions
 
 ## Overview
-Brief introduction about the project.
+This project implements an ETL (Extract, Transform, Load) pipeline for loading data from a source system into a staging area (STG) and then into a Data Warehouse (DWH). The DWH is designed with best practices, ensuring that:
+
+Fact tables are stored as daily snapshot tables to maintain historical transaction data.
+Dimension tables are implemented as Slowly Changing Dimension (SCD) Type 2, preserving historical changes in customer and product information.
+Staging area holds 7 daily snapshots, allowing for historical tracking and auditing before data moves to the DWH.
 
 ## Objectives
 - Load required tables from the source system to the staging area (STG) as a one-to-one mapping.
